@@ -8,6 +8,7 @@ Key Features of the Analysis:
 •	Model: Random Forest Regressor with 100 trees and a max depth of 10.
 •	Evaluation: Performance is measured using R-squared (R²), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
 •	Insights: Feature importance ranking to identify the primary drivers of GWP.
+
 📈 **Dataset Summary**
 •	Samples: 54
 •	Features: 13 (raw) → 32 (after encoding)
@@ -17,11 +18,13 @@ Material Info	Bottle Material, Cap Material, Filled Material, Label
 Logistics	Transport Mode, Transport Distance, No. of uses, Mass
 Production	Manufacturing Process, Electricity Mix, Electricity Value
 End of Life	EOL Scenario, EOL Percentage
+
 🚀 **Final Results**
 The model demonstrated strong predictive performance on the test set:
 •	R² Score: 0.8847
 •	RMSE: 13.1459 kg CO2 eq
 •	MAE: 7.0454 kg CO2 eq
+
 🏆 **Top Contributors to GWP**
 According to the model's Feature Importance, the most significant drivers of emissions are:
 1.	Manufacturing Process (0.8265)
